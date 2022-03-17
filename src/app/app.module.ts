@@ -8,7 +8,7 @@ import {environment} from '../environments/environment';
 import {MoviesComponent} from './components/movies/movies.component';
 import {MovieItemComponent} from './components/movies/movie-item/movie-item.component';
 import {LazyLoadImageDirective} from './directives/lazy-load-image.directive';
-import { HeroComponent } from './hero/hero.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [

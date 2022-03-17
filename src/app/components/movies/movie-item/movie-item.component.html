@@ -1,7 +1,7 @@
 <div class="item">
   <div class="picture-container">
     <div class="img-shadow">
-      <img [attr.src]="'https://www.themoviedb.org/t/p/w200' + movie.poster_path" alt="{{movie.original_title}}">
+      <img [src]="'https://www.themoviedb.org/t/p/w200' + movie.poster_path" alt="{{movie.original_title}}" loading="lazy" decoding="async">
     </div>
     <div class="title-container">
       <div class="original-title">{{movie.original_title}}</div>
