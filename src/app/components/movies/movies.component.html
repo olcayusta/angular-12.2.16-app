@@ -1,0 +1,7 @@
+<div class="shelf-head-renderer">
+  <h1>{{shelfTitle}}</h1>
+</div>
+
+<div class="items">
+  <app-movie-item *ngFor="let movie of movies$ | async" [movie]="movie"></app-movie-item>
+</div>
